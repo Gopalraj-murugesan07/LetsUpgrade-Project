@@ -1,0 +1,177 @@
+<html>
+    <head><title>LetsUpgrade.in</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        </head>
+
+    <style>
+        * {
+             padding: 0px;
+             margin: 0px;
+             box-sizing: border-box;
+             font-family: 'Roboto';
+          }
+
+       #container {
+             height: 100vh;
+          }
+
+          #nav {
+             height: 10vh;
+             display: flex;
+             justify-content: space-between;
+             width: 90%;
+             margin-inline: auto;
+             align-items: left;
+          }
+
+#img_logo {
+    height: 9vh;
+    
+}
+
+#nav_elements {
+    display: flex;
+    justify-content: left;
+   
+}
+
+.logo {
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.but_bg {
+    margin: 8px;
+    padding: 8px 26px;
+    font-weight: 400;
+    font-size: medium;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.Normal {
+    margin: 8px;
+    padding: 8px 26px;
+    font-weight: 400;
+    font-size: medium;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.Normal:hover {
+    background-color: black;
+    color: white;
+}
+
+.logo:hover {
+     color: rgb(255,102,0);
+}
+
+#hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.title {
+    width: 600px;
+    font-size: 80px;
+    text-align: center; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#fall {
+    width: 300px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(0,0,0,0.8);
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+h5 {
+    padding-bottom: 40px;
+}
+
+span {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#top_num {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#thi_head {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    padding-block: 14px;
+}
+    </style>
+    <body>
+        
+        <div id="container">
+            <div id="nav">
+            <img id="img_logo" src="https://lucdn.letsupgrade.net/small_logo_new_0cd08c57ce.png"
+            alt="logo">
+            <div id="nav_elements">
+                <a class="logo">Programs</a>
+                <a class="logo">Community</a>
+                <button class="but_bg">Sign In</button>
+                <button class="Normal">Sign Up</button>
+            </div>
+            </div>
+
+
+        <div id="hero">
+            <div>
+                <p id="fall">Live Community Members 🤩</p>
+                <div id="top_num">
+                    <span>7</span>
+                    <span>3</span>
+                    <span>6</span>
+                    <span>3</span>
+                    <span>6</span>
+                    <span>2</span>
+                </div>
+            </div>
+
+            <div>
+                 <h1 class="title">We make Future Developers 🚀</h1>
+                 <h4>Join 7,36,342+ LetsUpgrader's and become a Pro Developer 🔥
+                 </h4>
+            </div>
+
+            <button id="thi_head" class="but_bg">Start Learning</button>
+
+
+        </div>
+        </div>
+</html>
